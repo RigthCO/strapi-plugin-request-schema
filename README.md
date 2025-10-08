@@ -87,7 +87,6 @@ export default {
 ## TODO
 
 - Do not allow to define a schema with a empty object, since the middleware validates for non empty objects here should happne the same
-- Major refactoring (code is a mess)
 - Add more schemas?? Maybe for filters
 - Better errors
 - Better zod coerce

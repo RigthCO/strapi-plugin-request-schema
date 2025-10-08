@@ -1,11 +1,7 @@
-'use strict'
+'use strict';
 
-import { FILES_MIDDLEWARE_NAME } from '../_utilities/files'
-import { BODY_MIDDLEWARE_NAME } from '../_utilities/body'
-import middleware$1 from './body'
-import middleware$2 from './files'
+import enforce from './enforce';
 
 export default {
-    [BODY_MIDDLEWARE_NAME]: middleware$1,
-    [FILES_MIDDLEWARE_NAME]: middleware$2,
-}
+    enforce,
+};
