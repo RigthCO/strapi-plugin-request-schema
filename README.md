@@ -67,7 +67,7 @@ The plugin is currently tested and functional using strapi version `5.24.0`
 
 ```sh
 # Using NPM
-npm install strapi-plugin-soft-delete
+npm install strapi-plugin-request-schema
 ```
 
 ### Configuration
@@ -83,12 +83,3 @@ export default {
     // ...
 }
 ```
-
-## TODO
-
-- Do not allow to define a schema with a empty object, since the middleware validates for non empty objects here should happne the same
-- Add more schemas?? Maybe for filters
-- Better errors
-- Better zod coerce
-- Allow empty objects when parsing the request body
-- Redo the zod schema that parses the request files
