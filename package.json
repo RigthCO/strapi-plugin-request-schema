@@ -1,6 +1,6 @@
 {
     "name": "strapi-plugin-request-schema",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "A Strapi plugin that allows to create schemas that the request must follow.",
     "strapi": {
         "kind": "plugin",
